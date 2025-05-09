@@ -1,6 +1,7 @@
 // import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
+
 import "./App.css";
 import Greeting from "./components/Greeting";
 import Button from "./components/Button";
@@ -14,6 +15,7 @@ import DependencyDemo from "./components/DependencyDemo";
 import LocalStorageDemo from "./components/LocalStorageDemo";
 import MoviePage from "./components/MoviePage";
 import NameForm from "./components/NameForm";
+import TodoApp from "./components/todoapp/TodoApp";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -25,10 +27,10 @@ function App() {
 
       {/* <Counter /> */}
 
-      <DependencyDemo />
-      <LocalStorageDemo />
+      {/* <DependencyDemo />
+      <LocalStorageDemo /> */}
 
-      <MoviePage movieId={36} />
+      <MoviePage movieId={18} />
 
       <NameForm />
 
